@@ -1,0 +1,6 @@
+E:\src_2017\NetCoreAngular\NetCoreAngular\bin\Debug\netcoreapp1.1\NetCoreAngular.deps.json
+E:\src_2017\NetCoreAngular\NetCoreAngular\bin\Debug\netcoreapp1.1\NetCoreAngular.runtimeconfig.json
+E:\src_2017\NetCoreAngular\NetCoreAngular\bin\Debug\netcoreapp1.1\NetCoreAngular.runtimeconfig.dev.json
+E:\src_2017\NetCoreAngular\NetCoreAngular\bin\Debug\netcoreapp1.1\NetCoreAngular.dll
+E:\src_2017\NetCoreAngular\NetCoreAngular\obj\Debug\netcoreapp1.1\NetCoreAngular.csprojResolveAssemblyReference.cache
+E:\src_2017\NetCoreAngular\NetCoreAngular\obj\Debug\netcoreapp1.1\NetCoreAngular.AssemblyInfo.cs
