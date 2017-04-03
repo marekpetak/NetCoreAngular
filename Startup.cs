@@ -5,25 +5,25 @@ using Microsoft.Extensions.Logging;
 
 namespace NetCoreAngular
 {
-    public class Startup
+  public class Startup
+  {
+    public void ConfigureServices(IServiceCollection services)
     {
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddMvc();
-        }
-
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
-        {
-            loggerFactory.AddConsole();
-
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
-            app.UseMvc();
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
-        }
+      services.AddMvc();
     }
+
+    public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+    {
+      loggerFactory.AddConsole();
+
+      if (env.IsDevelopment())
+      {
+        app.UseDeveloperExceptionPage();
+      }
+
+      app.UseMvc();
+      app.UseDefaultFiles();
+      app.UseStaticFiles();
+    }
+  }
 }

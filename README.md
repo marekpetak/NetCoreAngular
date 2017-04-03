@@ -1,8 +1,16 @@
 ﻿# NetCoreAngular
 
-Basic .net core Visual Studio 2017 project with [Angular CLI](https://github.com/angular/angular-cli)
+Basic .NET Core Visual Studio 2017 project with [Angular CLI](https://github.com/angular/angular-cli)
 
-# Install
+## Dependencies
+
+1. Visual Studio 2017
+2. .NET Core 1.1
+3. Angular CLI 1.0.0
+4. NPM
+
+
+## Install
 
 1. Clone repository
 2. cd NetCoreAngular
@@ -12,7 +20,7 @@ Basic .net core Visual Studio 2017 project with [Angular CLI](https://github.com
 6. Run
 
 
-# Rebuild Angular app
+## Rebuild Angular app
 
 1. cd NetCoreAngular
-2. run *ng build*
+2. *ng build*
